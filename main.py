@@ -4,6 +4,7 @@ from verifier import verify_sudoku
 
 
 def main():
+    """Driver method for primary functionality."""
     # Prompt for Sudoku
     puzzle = input("Enter Sudoku puzzle (top left, read right):\n")
     # Run verifier
